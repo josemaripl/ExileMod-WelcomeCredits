@@ -13,11 +13,15 @@ Introducing Credit Styled Welcome Messages For The NEW ExileMod. Whenever a new 
 
 - In your **Description.ext** add this at the bottom:
 ```
-class cfgMusic{ 
-class intro {  
-	name = "intro";
-	sound = {"IntroSong.ogg", db+1,1}; 
-  };
+class CfgMusic
+{
+	tracks[]={};
+
+	class intro
+	{
+		name = "";
+		sound = {"custom\IntroSong.ogg", db+1,1}; 
+	};
 };
 ```
 ### BattlEye Filters ###
