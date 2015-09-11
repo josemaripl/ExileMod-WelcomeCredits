@@ -19,8 +19,8 @@ class CfgMusic
 
 	class intro
 	{
-		name = "";
-		sound = {"custom\IntroSong.ogg", db+1,1}; 
+		name = "intro";
+		sound = {"\custom\IntroSong.ogg", db+1,1}; 
 	};
 };
 ```
