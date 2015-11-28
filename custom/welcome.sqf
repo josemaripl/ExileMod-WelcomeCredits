@@ -22,7 +22,7 @@ _posDefault         = [0.3,0.55,0.5]; // Defualt Positions of all Credits
 
 
 // First
-_title             = "Welcome Survivor";
+_title             = format ["Welcome %1",name player];
 _shorttext         = "Arma 3 Exile By MyServer";
 _posText        = [0.8,0.5,0.4];
 
