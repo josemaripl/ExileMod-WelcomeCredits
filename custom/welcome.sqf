@@ -85,6 +85,7 @@ for "_i" from 1 to 50 do
     }
 };
 waitUntil{sleep 1; ExileClientPlayerIsSpawned}; 
+waitUntil{player == player};
 sleep _Delay;
 if (_IntroMusic) then { playMusic "intro";};
 player enableSimulation true;
